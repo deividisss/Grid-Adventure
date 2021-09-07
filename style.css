@@ -1,0 +1,14 @@
+body
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+@supports(display: grid) {
+    .message {
+      display: none;
+    }
+  }
