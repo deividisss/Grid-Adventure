@@ -1,3 +1,8 @@
+:root {
+    --area-radius: 10px;
+    --area-padding: 15px;
+}
+
 body
 {
     font-family: 'Helvetica', 'Arial', sans-serif;
@@ -12,3 +17,54 @@ body
       display: none;
     }
   }
+  
+  wrapper-g {
+    margin: auto;
+    width: 90vh;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "grid-area-1 grid-area-2 grid-area-3"
+    "grid-area-4 grid-area-5 grid-area-6"
+    "grid-area-7 grid-area-8 grid-area-9"
+    
+}
+
+grid-area[order="1"] {
+    grid-area: grid-area-1;
+    background-color: red;
+}
+grid-area[order="2"] {
+    grid-area: grid-area-2;
+    background-color: rgb(9, 255, 0);
+}
+grid-area[order="3"] {
+    grid-area: grid-area-3;
+    background-color: rgb(84, 84, 179);
+}
+grid-area[order="4"] {
+    grid-area: grid-area-4;
+    background-color: rgb(190, 102, 0);
+}
+grid-area[order="5"] {
+    grid-area: grid-area-5;
+    background-color: rgb(0, 204, 255);
+}
+grid-area[order="6"] {
+    grid-area: grid-area-6;
+    background-color: rgb(152, 84, 179);
+}
+grid-area[order="7"] {
+    grid-area: grid-area-7;
+    background-color: rgb(255, 238, 0);
+}
+grid-area[order="8"] {
+    grid-area: grid-area-8;
+    background-color: rgb(0, 255, 213);
+}
+grid-area[order="9"] {
+    grid-area: grid-area-9;
+    background-color: rgb(223, 65, 175);
+}
