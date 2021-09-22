@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
-    <h1>Grid Adventure</h1>
+    <h1 id="demo">Grid Adventure</h1>
     <p class="message">You need a browser that supports CSS Grid Layout to see this layout properly</p>
     <wrapper-g>
-        <grid-area order="1"><p>1</p></grid-area><grid-area order="2"><p>2</p></grid-area><grid-area order="3"><p>3</p></grid-area>
-        <grid-area order="4"><p>4</p></grid-area><grid-area order="5"><p>5</p></grid-area><grid-area order="6"><p>6</p></grid-area>
-        <grid-area order="7"><p>7</p></grid-area><grid-area order="8"><p>8</p></grid-area><grid-area order="9"><p>9</p></grid-area>
-    </wrapper-g>      
+        <grid-area order="1"><img id="mouse-char" src="assets/mouse-white.png" alt="mouse"></grid-area><grid-area order="2">2</grid-area><grid-area order="3">3</grid-area>
+        <grid-area order="4">4</grid-area><grid-area order="5">5</grid-area><grid-area order="6">6</grid-area>
+        <grid-area order="7">7</grid-area><grid-area order="8">8</grid-area><grid-area order="9">9</grid-area>
+    </wrapper-g>
+    <div id="arrow"></div>
+    <script src="main.js"></script>   
 </body>
 </html>

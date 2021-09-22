@@ -89,3 +89,18 @@ grid-area[order="9"] {
     background-color: #263238;
     color: var(--text-color-light);
 }
+
+#mouse-char{
+    width: 80%;
+    height: 80%;
+}
+
+#arrow{
+    width: 3px;
+    height: 3px;
+    background-color: red;
+    position: fixed;
+    left: 457.797px;
+    stop: 209.906px;
+}
+
